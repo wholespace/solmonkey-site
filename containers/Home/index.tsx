@@ -13,7 +13,7 @@ import {
 import Image from "next/image";
 
 //! import images
-import home1 from "@public/assets/images/home-1.png";
+import home from "@public/assets/images/home.png";
 import team1 from "@public/assets/images/team-1.png";
 import team2 from "@public/assets/images/team-2.png";
 import team3 from "@public/assets/images/team-3.png";
@@ -42,7 +42,7 @@ const Home: FC = () => {
           </div>
         </div>
         <div className="images">
-          <Image src={home1}></Image>
+          <Image src={home}></Image>
         </div>
       </HomeContainer>
       <RoadmapContainer id="roadmap">
