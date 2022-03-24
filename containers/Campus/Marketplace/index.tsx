@@ -16,17 +16,17 @@ const Index: FC = () => {
       <div className="title">MARKETPLACE</div>
       <div className="market">
         <MarketCard
-          img={market1}
+          imgage={market1}
           text={"DIAMOND HEAD #161"}
           price={"1500 $SMU"}
         ></MarketCard>
         <MarketCard
-          img={market2}
+          imgage={market2}
           text={"MoneyBOy #1564"}
           price={"50000 $SMU"}
         ></MarketCard>
         <MarketCard
-          img={market3}
+          imgage={market3}
           text={"SOLGOD #1345"}
           price={"60000 $SMU"}
         ></MarketCard>

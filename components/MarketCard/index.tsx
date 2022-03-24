@@ -2,15 +2,15 @@ import { FC } from "react";
 import { MarketCardContainer } from "./styled";
 
 interface MarketType {
-  img: StaticImageData;
+  imgage: StaticImageData;
   text: string;
   price: string;
 }
 
-const MarketCard: FC<MarketType> = ({ img, text, price }) => {
+const MarketCard: FC<MarketType> = ({ imgage, text, price }) => {
   return (
     <MarketCardContainer>
-      <img src={img.src} />
+      <img src={imgage.src} />
       <div className="text">{text}</div>
       <div className="price">{price}</div>
       <button>BUY NOW</button>
